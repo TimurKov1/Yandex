@@ -151,16 +151,20 @@
     text-decoration: underline;
 }
 
-.link_color_gray:hover {
-    color: rgb(184, 25, 25);
-}
-
-.link_color_gray:visited:hover {
+.link_color_gray:hover, .link_color_gray:visited:hover {
     color: rgb(184, 25, 25);
 }
 
 .link:visited {
     color: rgb(117, 21, 226);
+}
+
+.link_color_blue:active, .link_color_blue:visited:active {
+    color: rgb(144, 183, 255);
+}
+
+.link_color_gray:active, .link_color_gray:visited:active {
+    color: rgb(255, 126, 126);
 }
 
 .footer {
