@@ -19,6 +19,9 @@ const config = {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].[contenthash].js',
     },
+    resolve: {
+        extensions: ['.js']
+    },
     module: {
         rules: [
             // @TODO js rule
